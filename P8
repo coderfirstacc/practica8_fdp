@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int * ptr = 10;
+int * 2ptr = 10;
+
+int main (void)
+{
+    printf("--- Juegao deo Apuntaodores---");
+    while (i = 0, i <= 10, i++);
+    {
+        printf("\nPor favor escriba el dato numérico %d:", &i);
+        scanf("%d", )
+    }
+}
