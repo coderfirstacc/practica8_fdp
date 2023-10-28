@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int ArrayA[10];
+int ArrayB[10];
+int i = 0;
+
+int main (void)
+{
+    printf("--- Juego de Apuntadores---");
+    for(i=0; i<=9; i++)
+    {
+        printf("\nPor favor escriba el dato numérico %d: ", i);
+        scanf("%d", &ArrayA[i]);
+        printf("%d",ArrayA[i]);
+    }
+    for(i=0; i<=10; i++)
+    {
+        ArrayB[9-i] = ArrayA[i];
+    }
+    printf("\nEl arreglo 2 contiene estos valores: \n");
+    for(i = 0; i <= 9; i++)
+    {
+        printf("%d", ArrayB[i]);
+    }
+    return 0;
+}
